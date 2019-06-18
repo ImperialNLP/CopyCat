@@ -1,6 +1,6 @@
 # CopyCat
 
-# Main changes for MMT are in:
+# Main changes are in:
 
 https://github.com/ImperialNLP/CopyCat/blob/master/tensor2tensor/tensor2tensor/models/transformer.py
 https://github.com/ImperialNLP/CopyCat/blob/master/tensor2tensor/tensor2tensor/layers/common_layers.py
