@@ -21,6 +21,16 @@ from tensor2tensor.layers import modalities
 
 LOCATION_OF_DATA = '/data/jive/finished_files/'
 
+# order sets for APE
+# src
+# trg
+# MT
+
+# order of sets for summ
+# art
+# abs
+# art
+
 _ZHEN_TRAIN_DATASETS = [
             LOCATION_OF_DATA+'train.art.padded',
                 LOCATION_OF_DATA+'train.abs.padded',

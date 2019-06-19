@@ -276,7 +276,7 @@ class Transformer(t2t_model.T2TModel):
           recurrent_memory_by_layer=self.recurrent_memory_by_layer,
           chunk_number=chunk_number_each_batch,
           )
-
+    #JI: here for summarization we will use only one encoder the other is None
     decoder_output = self.decode(
         decoder_input,
         #encoder_output,
